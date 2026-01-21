@@ -10,7 +10,7 @@ typedef struct cellPoint{
 
 /* Celllule d une liste (chainee) de chaines */
 typedef struct cellChaine{
-  int numero;                   /* Numero de la chaine */
+  int nuero;                   /* Numero de la chaine */
   CellPoint *points;            /* Liste des points de la chaine */
   struct cellChaine *suiv;      /* Cellule suivante dans la liste */
 } CellChaine;
@@ -29,4 +29,5 @@ double longueurTotale(Chaines *C);
 int comptePointsTotal(Chaines *C);
 
 #endif	
+
 
