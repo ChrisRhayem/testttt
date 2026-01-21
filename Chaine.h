@@ -18,7 +18,7 @@ typedef struct cellChaine{
 /* L'ensemble des chaines */
 typedef struct {
   int gamma;                    /* Nombre maximal de fibres par cable */
-  int nbChaines;                /* Nombre de chaines */
+  int nbChaine;                /* Nombre de chaines */
   CellChaine *chaines;          /* La liste chainee des chaines */
 } Chaines;
 
@@ -29,3 +29,4 @@ double longueurTotale(Chaines *C);
 int comptePointsTotal(Chaines *C);
 
 #endif	
+
